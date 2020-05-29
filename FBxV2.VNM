@@ -199,7 +199,7 @@ def menu():
 	print "\x1b[32;1m1.\x1b[0;1m Hack facebook "
 	print "\x1b[32;1m2.\x1b[0;1m See group list               "
 	print "\x1b[32;1m3.\x1b[0;1m Account information               "
-	print "\x1b[32;1m4.\x1b[0;1m Yahoo clone               "
+	print "\x1b[32;1m4.\x1b[0;1m Yahoo clone (NO Work)               "
 	print "\n\x1b[32;1m0.\x1b[0;1m Logout            "
 	pilih()
 
@@ -242,7 +242,7 @@ def super():
 	print 42*"\033[1;96m="
 	print "\x1b[32;1m1.\x1b[0;1m Crack hck Friendlist"
 	print "\x1b[32;1m2.\x1b[0;1m Crack hck Friend of friend"
-	print "\x1b[32;1m3.\x1b[0;1m Crack hck member grup"
+	print "\x1b[32;1m3.\x1b[0;1m Crack hck member grup (NO Work)"
 	print "\x1b[32;1m4.\x1b[0;1m Crack hck file"
 	print "\n\x1b[32;1m0.\x1b[33;1m Back"
 	pilih_super()
