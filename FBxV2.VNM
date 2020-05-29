@@ -81,7 +81,7 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mWhat Is Your Name ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa Nama Anda ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mfill in correctly"
 		time.sleep(1)
