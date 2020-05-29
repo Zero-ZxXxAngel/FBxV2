@@ -90,10 +90,10 @@ def siapa():
 		os.system('clear')
 		jalan("\033[1;97mWelcome Back \033[1;92m" +nama+ "\n\033[1;97mRemember,Selaa Chan is mine !!")
 		time.sleep(1)
-		login()
+		loginSC()
 		
 		
-def login():
+def loginSC():
 	os.system('clear')
 	print"\033[1;97mfind the id and password on my Instagram, you will automatically be transferred to my Instagram\n"
 	os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
@@ -102,7 +102,7 @@ def login():
 	if username =="Zero" and password =="ZalasXa":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
-		login()
+		loginSC()
 	else:
 		print"\033[1;96m[!] \033[1;91mIs Worng"
 		os.system('xdg-open https://www.instagram.com/p/CAyBzI5Jaf6/?igshid=t2dmqx0cta0k')
